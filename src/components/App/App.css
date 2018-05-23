@@ -1,5 +1,5 @@
 .main {
-  background: linear-gradient(135deg, rgb(58,169,171) 0%,rgb(125,35,186) 100%);
+  background: linear-gradient(135deg, rgba(48,35,174,1) 0%, rgba(201,109,215,1) 100%);;
   height: 100vh;
   padding: 160px;
 }
@@ -8,7 +8,7 @@
   width: calc(var(--size) * 4);
   margin: auto;
   box-shadow: 0px 0px 26px 0px rgba(2,14,64,1);
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 9px;
 }
 
 .row {
@@ -16,7 +16,15 @@
 }
 
 .console {
-  height: calc(var(--size) * 1.2);
-  border-radius: 12px 12px 0px 0px;
+  height: calc(var(--size) * 2);
+  border-radius: 9px 9px 0px 0px;
   background-color: white;
+}
+
+.botLeft {
+  border-radius: 0px 0px 0px 9px;
+}
+
+.botRight {
+  border-radius: 0px 0px 9px 0px;
 }
